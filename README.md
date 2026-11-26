@@ -1,9 +1,9 @@
 # KioskApp для Windows x64
 
-[Скачать актуальный установщик MSI](https://github.com/temaskif89-a11y/KioskApp-Releases/releases/latest/download/KioskApp-win-x64.msi) · [История версий](https://github.com/temaskif89-a11y/KioskApp-Releases/releases)
+[Скачать единый установщик для нового киоска](https://github.com/temaskif89-a11y/KioskApp-Releases/releases/latest/download/KioskApp-Setup-win-x64.exe) · [Скачать MSI для действующего киоска](https://github.com/temaskif89-a11y/KioskApp-Releases/releases/latest/download/KioskApp-win-x64.msi) · [История версий](https://github.com/temaskif89-a11y/KioskApp-Releases/releases)
 
 Для перехода с прежней версии завершите текущий заказ, закройте киоск и запустите MSI под обычной учётной записью киоска. В мастере укажите папку, в которой уже лежат рабочие KioskApp.exe и config.json. После установки откройте киоск прежним ярлыком.
 
 При последующих запусках программа сама проверит версию, скачает обновление и сверит контрольную сумму. Настройки точки, история платежей, кеш меню, реклама и собственные изображения сохраняются. Если GitHub недоступен, киоск открывается с установленной версией.
 
-Для новой установки требуются Windows x64, .NET 8 Desktop Runtime, WebView2 Runtime и реквизиты подключения, предоставленные обслуживающим специалистом.
+Для новой установки на Windows x64 запустите KioskApp-Setup-win-x64.exe под учётной записью киоска. Файл можно принести на флешке. Мастер проверит WebView2 и .NET 8 Desktop Runtime x64 и установит недостающие компоненты без доступа в интернет. Для подключения к iiko потребуются реквизиты точки.
